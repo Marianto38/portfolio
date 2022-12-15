@@ -8,21 +8,22 @@
   <script src="https://kit.fontawesome.com/d68c1b0b8f.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap" rel="stylesheet">
-  <enlace href="https: //fonts.googleapis.com/css2? familia= Lato:ital,peso@1,300;1,900 & display=swap" rel="stylesheet"> </enlace>
+  <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;900&family=Barlow+Semi+Condensed:wght@500&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-
+    <link rel="stylesheet" href="scss/custom.css">
     <link rel="stylesheet" href="style.css" type="text/css">
+
+
 </head>
 
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light  opacity-75 sticky-top">
       <div class="container-fluid">
-        <img src="images/logo.png" style="max-width: 200px;" />
+        <a class="nav-link active" aria-current="page" href="#home"><img src="images/logo.png" style="max-width: 200px;" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,13 +33,13 @@
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#about">About</a>
+                  <a class="nav-link active" aria-current="page" href="#about"> <strong> ABOUT </strong> </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#proyects">Proyects</a>
+                  <a class="nav-link" href="#projects"> <strong> PROJECTS </strong></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
+                  <a class="nav-link" href="#contact"> <strong> CONTACT</strong></a>
                 </li>
               </ul>
             </div>
@@ -52,6 +53,7 @@
 
 
     <!-- sección principal -->
+    <a name="home" id="home"></a>
     <div class="row my-auto p-2 d-flex align-items-center justify-content-center">
       <div class="col-12 col-lg-6 text-center">
         <img src="./images/img-profile.png" alt="" id="img-profile">
@@ -61,7 +63,7 @@
         <p class="fs-1">I am Maria Antonieta</p>
         <p class="fs-3">Frontend Web Developer</p>
         <div>
-          <a  class="btn btn-dark download-btn rounded-pill py-2 mt-3 ps-5 pe-5" href="docs/hv-maria-antonieta.pdf" download> <span class="pe-2"> Download CV  </span> <i class="fa-solid fa-download"></i> </a>
+          <a  class="btn btn-success download-btn rounded-pill py-2 mt-3 ps-5 pe-5" href="docs/hv-maria-antonieta.pdf" download> <span class="pe-2"> Download CV  </span> <i class="fa-solid fa-download"></i> </a>
         </div>
       </div>
       </div>
@@ -79,7 +81,7 @@
     <div class="row my-5 background-2">
       <div class="col-12 fs-5 lh-base col-md-6 p-md-5 d-flex align-items-center">
         <div class=" anto1">
-        <h4 class="text-center mb-3">ABOUT ME</h4>
+        <h4 class="text-center mb-3"> <strong> ABOUT ME </strong> </h4>
 
           <p class=""> I recently completed my training as a full-stack developer, I want to focus on front-end web development with HTML, CSS, JavaScript, Bootstrap and Figma technologies, I am eager to find the best work team, in which I can share all my continuous learning. I consider myself a super committed, patient and empathetic person, I believe in collaborative work and continuous improvement!</p>
         </div>
@@ -159,7 +161,7 @@
 
 
      <!-- seccion proyectos -->
-     <a name="proyects" id="proyects"></a>
+     <a name="projects" id="projects"></a>
      <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
       <div class="row">
 
@@ -177,10 +179,10 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
 
-          <h4 class="text-center"> SEE MY PROYECTS</h4>
+          <h3 class="text-center"> <strong> PROJECTS </strong> </h3>
 
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active mt-md-5 mb-md-5">
               <!-- <img src="images/dreamer.jpg" class="d-block w-100" alt="..."> -->
               <div class="row my-auto p-2 d-flex align-items-center justify-content-center">
                 <div class="col-12 col-lg-6 text-center mt-3 mb-5">
@@ -202,11 +204,11 @@
                   </div>
                 </div>
                 <div class="col-12 col-lg-6 p-md-5">
-                  <div>
-                  <p class="fs-1">KATAPI</p>
+                  <div class="pb-5">
+                  <p class="fs-1"> <strong>  KATAPI </strong></p>
                   <p class="fs-5">Is an productivity tool that visually represents the progress of your goals by displaying the growth of a tree</p>
                   <div>
-                    <a target="_blank" class="btn btn-dark download-btn rounded-pill py-2 ps-5 pe-5" href="https://www.katapi.co/" download> <span class="pe-2">  See Proyect </span> <i class="fa-solid fa-rocket"></i> </a>
+                    <a target="_blank" class="btn btn-success download-btn rounded-pill py-2 ps-5 pe-5" href="https://www.katapi.co/" download> <span class="pe-2">  See Proyect </span> <i class="fa-solid fa-rocket"></i> </a>
                   </div>
                 </div>
                 </div>
@@ -215,7 +217,7 @@
 
 
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item mb-md-5 mt-md-5">
 
 
               <div class="row my-auto p-2 d-flex align-items-center justify-content-center">
@@ -239,10 +241,10 @@
                 </div>
                 <div class="col-12 col-lg-6 p-md-5">
                   <div>
-                  <p class="fs-1">REFERENT</p>
+                  <p class="fs-1"> <strong> REFERENT </strong></p>
                   <p class="fs-5">Is an Marketplace to connects designers and fashion lovers</p>
-                  <div>
-                    <a target="_blank" class="btn btn-dark download-btn rounded-pill py-2 ps-5 pe-5" href="https://referent.herokuapp.com/" download> <span class="pe-2">  See Proyect </span> <i class="fa-solid fa-rocket"></i> </a>
+                  <div class="pb-5">
+                    <a target="_blank" class="btn btn-success download-btn rounded-pill py-2 ps-5 pe-5" href="https://referent.herokuapp.com/" download> <span class="pe-2">  See Proyect </span> <i class="fa-solid fa-rocket"></i> </a>
                   </div>
                 </div>
                 </div>
@@ -273,7 +275,7 @@
 
     <!-- seccion tecnologias -->
   <div class="row  background-1">
-    <h2 class="text-center mt-5 text-light"> TECNOLOGIES </h2>
+    <h2 class="text-center mt-5 text-light"> <strong>  TECNOLOGIES  </strong></h2>
     <ul class="tecnologies mb-4">
       <li class="tecno"><img class="img-tecnologies  rounded-4" src="images/ruby.png" alt=""></li>
       <li class="tecno"><img class="img-tecnologies" src="images/html.png" alt=""></li>
@@ -292,7 +294,7 @@
 
     <!-- seccion experiencia -->
     <div class="row">
-    <h1 class="text-center mt-5">Experience</h1>
+    <h4 class="text-center mt-5"> <strong> EXPERIENCE </strong></h4>
     <div class="timeline mt-0">
       <ul>
         <li>
@@ -353,7 +355,7 @@
     <!-- Formulario de contacto -->
     <a name="contact" id="contact"></a>
     <div class="row background-1">
-      <h2 class="text-center mt-3 text-light">CONTACT ME</h2>
+      <h2 class="text-center mt-3 text-light"> <strong> CONTACT ME </strong></h2>
       <div class="row align-items-center">
         <div class="col-md-12 col-lg-6">
             <div class="d-flex justify-content-center icons">
@@ -385,7 +387,7 @@
             <div class="form-group">
               <textarea placeholder="Your Message" class="form-control" name="message" rows="4" required></textarea>
             </div>
-            <button type="submit" class="btn btn-lg rounded-pill btn-dark ps-5 pe-5 mb-3 mt-3 text-center"> <span class="pe-2 fs-6"> Send Message  </span> <i class="pt-1 opacity-75 fa-solid fa-paper-plane"></i> </button>
+            <button type="submit" class="btn btn-lg rounded-pill btn-success ps-5 pe-5 mb-3 mt-3 text-center"> <span class="pe-2 fs-6"> Send Message  </span> <i class="pt-1 opacity-75 fa-solid fa-paper-plane"></i> </button>
           </form>
         </div>
 

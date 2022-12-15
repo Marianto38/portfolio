@@ -30,6 +30,7 @@ body {
   max-width: 100%;
   max-height: 100%;
   background-color: #FAF1EF;
+  font-family: 'Arima Madurai', cursive;
   /* background-color: #E9DDD7; */
   /* background-image: linear-gradient(to top, rgb(201, 28, 123) 39%, rgb(146, 85, 115) 100%); */
   /* linear-gradient(90deg, rgba(119,0,255,1) 39%, rgba(0,212,255,1) 100%); */
@@ -108,7 +109,7 @@ body {
   width: 100%;
   max-width: 374px;
   margin-left: 26px;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
 }
 .slider-item .animation-card_content .animation-card_content_title {
   color: #4a4545;
@@ -600,4 +601,7 @@ body {
 }
 .carousel-control-next, .carousel-control-prev {
   width: 5%;
+}
+.btn {
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
