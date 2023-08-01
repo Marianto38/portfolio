@@ -24,3 +24,4 @@ function sortArray(array) {
         return startAnim(array);
     },3000)
 }
+

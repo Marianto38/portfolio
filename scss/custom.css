@@ -2943,7 +2943,7 @@ textarea.form-control-lg {
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #198754;
-  --bs-btn-disabled-border-color: #198754;
+  --bs-btn-disabled-border-color: #5e6562;
 }
 
 .btn-info {
